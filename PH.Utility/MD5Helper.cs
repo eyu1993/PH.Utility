@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace PH.Utility.Encrypt
+namespace PH.Utility
 {
     /// <summary>
     /// MD5加密
@@ -27,7 +27,7 @@ namespace PH.Utility.Encrypt
         }
 
         /// <summary>
-        /// 获取文件的MD5值
+        /// 获取文件的MD5值（32位）
         /// </summary>
         /// <param name="path">绝对路径或相对路径</param>
         /// <returns>加密结果</returns>
